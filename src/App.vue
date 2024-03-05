@@ -2,6 +2,7 @@
   <a-layout class="my-app">
     <a-layout-header class="my-headr">
       <router-link to="/" class="my-logo">Task</router-link>
+      <a-button href="/task" ghost>Task board</a-button>
     </a-layout-header>
     <main>
       <router-view></router-view>
@@ -28,6 +29,9 @@ main
 .my-headr
   color: white
   background-color: #37474F
+  display: flex
+  justify-content: space-between
+  align-items: center
 
 .my-footer
   text-align: center

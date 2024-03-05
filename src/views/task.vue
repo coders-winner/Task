@@ -1,5 +1,5 @@
 <template>
-  <h1 class="my-text-center">Доски с задачами</h1>
+  <h1 class="my-text-center">Доска с заданиями</h1>
   <div class="my-cont">
     <a-row class="my-row">
       <a-col class="my-col">
