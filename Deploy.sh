@@ -17,6 +17,6 @@ echo Deploying..
 git init
 git add -A 
 git commit -m 'deploy' 
-git push -f https://github.com/coders-winner/Task.git gh-page
+git push -f https://github.com/coders-winner/Task.git master:gh-page
 
 cd -
